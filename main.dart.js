@@ -12509,7 +12509,7 @@ _.e=e
 _.f=f},
 ad7:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h={}
 h.a=b
-if(a==null)a=C.me
+if(a==null)a=C.mf
 s=J.ak(a)
 r=s.gk(a)-1
 q=P.bw(0,null,!1,t.aa)
@@ -12646,7 +12646,7 @@ q.gnv()
 p.snv(q.gnv())
 q.gla()
 p.sla(q.gla())
-r.iL(0,C.me,p)
+r.iL(0,C.mf,p)
 r.saF(0,b.gaF(b))
 r.sbs(0,b.gbs(b))
 r.id=b.ga3o()
@@ -47190,7 +47190,7 @@ r.ch=c.r2
 r.be=c.x1
 r.t=c.x2
 r.bz=c.y1
-r.Wm(b==null?C.me:b)},
+r.Wm(b==null?C.mf:b)},
 a2v:function(a,b){return this.iL(a,null,b)},
 JN:function(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this,a6={}
 a6.a=a5.k1
@@ -56890,7 +56890,7 @@ q=B.aM(e,q,C.N,e,e)
 q=T.cv(H.b([h,U.a8D(!0,g,H.b([" Flutter Developer"," React Web Developer"," Machine Learning Enthusiast"],t.i),q)],m),C.y,C.t,C.aH)
 n=T.b5(e,n,e)
 g=H.b([],m)
-for(d=c*0.035,h=b*0.005,f=0;f<6;++f)g.push(new B.dN(new L.oX(C.mf[f],C.md[f],d,h,e),e))
+for(d=c*0.035,h=b*0.005,f=0;f<6;++f)g.push(new B.dN(new L.oX(C.md[f],C.me[f],d,h,e),e))
 return M.aQ(e,T.iI(C.by,H.b([s,M.aQ(e,T.d5(H.b([o,r,l,k,p,new B.fn(q,j,i,new P.r(-10,0),e),n,T.cv(g,C.y,C.t,C.b5)],m),C.aj,C.t),e,e,e,e,new V.ar(b*0.1,c*0.2,0,0),e,e)],m),C.c3),e,e,e,c,e,e,b)}}
 G.rU.prototype={
 ap:function(){return new G.If(C.k)}}
@@ -56912,7 +56912,7 @@ j=B.aM(h,s,C.N,h,h)
 j=T.cv(H.b([l,U.a8D(!0,k,H.b([" Flutter Developer"," React Web Developer"," Machine Learning Enthusiast"],t.i),j)],r),C.y,C.t,C.aH)
 k=T.b5(h,f*0.035,h)
 l=H.b([],r)
-for(i=0;i<6;++i)l.push(new L.oX(C.mf[i],C.md[i],s,2,h))
+for(i=0;i<6;++i)l.push(new L.oX(C.md[i],C.me[i],s,2,h))
 return M.aQ(h,T.iI(C.by,H.b([g,M.aQ(h,T.d5(H.b([q,o,m,n,p,j,k,T.cv(l,C.y,C.t,C.b5)],r),C.aj,C.t),h,h,h,h,new V.ar(e*0.07,f*0.12,0,0),h,h)],r),C.c3),h,h,h,f,h,h,e)}}
 V.BT.prototype={
 E:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=t.w,e=b.D(f).f.a.b,d=b.D(f).f.a.a
@@ -56935,7 +56935,7 @@ s=B.aM(g,s,C.N,g,g)
 s=T.cv(H.b([l,U.a8D(!0,k,H.b([" Flutter Developer"," React Web Developer"," Machine Learning Enthusiast"],t.i),s)],q),C.y,C.t,C.aH)
 k=T.b5(g,e*0.045,g)
 l=H.b([],q)
-for(j=e*0.035,i=d*0.01,h=0;h<6;++h)l.push(new L.oX(C.mf[h],C.md[h],j,i,g))
+for(j=e*0.035,i=d*0.01,h=0;h<6;++h)l.push(new L.oX(C.md[h],C.me[h],j,i,g))
 return M.aQ(g,T.iI(C.by,H.b([r,M.aQ(g,T.d5(H.b([p,o,m,n,s,k,T.cv(l,C.y,C.t,C.b5)],q),C.aj,C.t),g,g,g,g,new V.ar(d*0.1,f,0,0),g,g)],q),C.c3),g,g,g,e,g,g,d)}}
 F.tp.prototype={
 ap:function(){return new F.IJ(F.XA(25,!0),new A.SX(),new N.t2(new B.e4(H.b([],t.zt),new P.bc(t.V))),H.b(["HOME","ABOUT","SKILLS","PROJECTS","CONTACT"],t.i),H.b([C.py,C.wf,C.we,C.wb,C.pz],t.nD),C.k)}}
@@ -60332,6 +60332,7 @@ C.wA=H.b(s([C.S,C.N,C.fm,C.r,C.ae,C.ji,C.c6,C.jj,C.hK]),H.W("p<ee*>"))
 C.pN=H.b(s([0,0,32776,33792,1,10240,0,0]),t.W)
 C.wC=H.b(s(["*::class","*::dir","*::draggable","*::hidden","*::id","*::inert","*::itemprop","*::itemref","*::itemscope","*::lang","*::spellcheck","*::title","*::translate","A::accesskey","A::coords","A::hreflang","A::name","A::shape","A::tabindex","A::target","A::type","AREA::accesskey","AREA::alt","AREA::coords","AREA::nohref","AREA::shape","AREA::tabindex","AREA::target","AUDIO::controls","AUDIO::loop","AUDIO::mediagroup","AUDIO::muted","AUDIO::preload","BDO::dir","BODY::alink","BODY::bgcolor","BODY::link","BODY::text","BODY::vlink","BR::clear","BUTTON::accesskey","BUTTON::disabled","BUTTON::name","BUTTON::tabindex","BUTTON::type","BUTTON::value","CANVAS::height","CANVAS::width","CAPTION::align","COL::align","COL::char","COL::charoff","COL::span","COL::valign","COL::width","COLGROUP::align","COLGROUP::char","COLGROUP::charoff","COLGROUP::span","COLGROUP::valign","COLGROUP::width","COMMAND::checked","COMMAND::command","COMMAND::disabled","COMMAND::label","COMMAND::radiogroup","COMMAND::type","DATA::value","DEL::datetime","DETAILS::open","DIR::compact","DIV::align","DL::compact","FIELDSET::disabled","FONT::color","FONT::face","FONT::size","FORM::accept","FORM::autocomplete","FORM::enctype","FORM::method","FORM::name","FORM::novalidate","FORM::target","FRAME::name","H1::align","H2::align","H3::align","H4::align","H5::align","H6::align","HR::align","HR::noshade","HR::size","HR::width","HTML::version","IFRAME::align","IFRAME::frameborder","IFRAME::height","IFRAME::marginheight","IFRAME::marginwidth","IFRAME::width","IMG::align","IMG::alt","IMG::border","IMG::height","IMG::hspace","IMG::ismap","IMG::name","IMG::usemap","IMG::vspace","IMG::width","INPUT::accept","INPUT::accesskey","INPUT::align","INPUT::alt","INPUT::autocomplete","INPUT::autofocus","INPUT::checked","INPUT::disabled","INPUT::inputmode","INPUT::ismap","INPUT::list","INPUT::max","INPUT::maxlength","INPUT::min","INPUT::multiple","INPUT::name","INPUT::placeholder","INPUT::readonly","INPUT::required","INPUT::size","INPUT::step","INPUT::tabindex","INPUT::type","INPUT::usemap","INPUT::value","INS::datetime","KEYGEN::disabled","KEYGEN::keytype","KEYGEN::name","LABEL::accesskey","LABEL::for","LEGEND::accesskey","LEGEND::align","LI::type","LI::value","LINK::sizes","MAP::name","MENU::compact","MENU::label","MENU::type","METER::high","METER::low","METER::max","METER::min","METER::value","OBJECT::typemustmatch","OL::compact","OL::reversed","OL::start","OL::type","OPTGROUP::disabled","OPTGROUP::label","OPTION::disabled","OPTION::label","OPTION::selected","OPTION::value","OUTPUT::for","OUTPUT::name","P::align","PRE::width","PROGRESS::max","PROGRESS::min","PROGRESS::value","SELECT::autocomplete","SELECT::disabled","SELECT::multiple","SELECT::name","SELECT::required","SELECT::size","SELECT::tabindex","SOURCE::type","TABLE::align","TABLE::bgcolor","TABLE::border","TABLE::cellpadding","TABLE::cellspacing","TABLE::frame","TABLE::rules","TABLE::summary","TABLE::width","TBODY::align","TBODY::char","TBODY::charoff","TBODY::valign","TD::abbr","TD::align","TD::axis","TD::bgcolor","TD::char","TD::charoff","TD::colspan","TD::headers","TD::height","TD::nowrap","TD::rowspan","TD::scope","TD::valign","TD::width","TEXTAREA::accesskey","TEXTAREA::autocomplete","TEXTAREA::cols","TEXTAREA::disabled","TEXTAREA::inputmode","TEXTAREA::name","TEXTAREA::placeholder","TEXTAREA::readonly","TEXTAREA::required","TEXTAREA::rows","TEXTAREA::tabindex","TEXTAREA::wrap","TFOOT::align","TFOOT::char","TFOOT::charoff","TFOOT::valign","TH::abbr","TH::align","TH::axis","TH::bgcolor","TH::char","TH::charoff","TH::colspan","TH::headers","TH::height","TH::nowrap","TH::rowspan","TH::scope","TH::valign","TH::width","THEAD::align","THEAD::char","THEAD::charoff","THEAD::valign","TR::align","TR::bgcolor","TR::char","TR::charoff","TR::valign","TRACK::default","TRACK::kind","TRACK::label","TRACK::srclang","UL::compact","UL::type","VIDEO::controls","VIDEO::height","VIDEO::loop","VIDEO::mediagroup","VIDEO::muted","VIDEO::preload","VIDEO::width"]),t.i)
 C.wD=H.b(s([40,20,40]),t.bq)
+C.md=H.b(s(["https://img.icons8.com/ios-filled/480/ffffff/mail.png","https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png","https://img.icons8.com/android/480/ffffff/twitter.png","https://img.icons8.com/metro/308/ffffff/linkedin.png","https://img.icons8.com/material-rounded/384/ffffff/github.png","https://img.icons8.com/ios-filled/480/ffffff/code.png"]),t.i)
 C.wE=H.b(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.W)
 C.jC=H.b(s([0,0,65490,45055,65535,34815,65534,18431]),t.W)
 C.wF=H.b(s(["pointerdown","pointermove","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseup","keyup","keydown"]),t.i)
@@ -60351,7 +60352,7 @@ C.rP=new P.iL(3,"TextAlign.justify")
 C.aT=new P.iL(4,"TextAlign.start")
 C.iT=new P.iL(5,"TextAlign.end")
 C.wK=H.b(s([C.iR,C.iS,C.aM,C.rP,C.aT,C.iT]),H.W("p<iL*>"))
-C.md=H.b(s(["mailto:goyalsatyam8@gmail.com","https://www.instagram.com/s.a.t.y.u_/","https://twitter.com/SatYug26","https://www.linkedin.com/in/satyu26/","https://github.com/SatYu26","https://leetcode.com/satyu/"]),t.i)
+C.me=H.b(s(["mailto:goyalsatyam8@gmail.com","https://www.instagram.com/s.a.t.y.u_/","https://twitter.com/SatYug26","https://www.linkedin.com/in/satyu26/","https://github.com/SatYu26","https://leetcode.com/satyu/"]),t.i)
 C.lq=new K.xy(0,"_RouteRestorationType.named")
 C.tg=new K.xy(1,"_RouteRestorationType.anonymous")
 C.wN=H.b(s([C.lq,C.tg]),H.W("p<xy*>"))
@@ -60364,11 +60365,10 @@ C.E9=H.b(s([]),t.jK)
 C.wU=H.b(s([]),H.W("p<jQ*>"))
 C.pT=H.b(s([]),H.W("p<ho*>"))
 C.wV=H.b(s([]),H.W("p<acE<@>*>"))
-C.me=H.b(s([]),H.W("p<bp*>"))
+C.mf=H.b(s([]),H.W("p<bp*>"))
 C.fr=H.b(s([]),t.i)
 C.pU=H.b(s([]),H.W("p<f_*>"))
 C.Ea=H.b(s([]),t.X)
-C.mf=H.b(s(["https://img.icons8.com/ios-filled/480/ffffff/important-mail.png","https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png","https://img.icons8.com/android/480/ffffff/twitter.png","https://img.icons8.com/metro/308/ffffff/linkedin.png","https://img.icons8.com/material-rounded/384/ffffff/github.png","https://img.icons8.com/ios-filled/480/ffffff/code.png"]),t.i)
 C.wX=H.b(s([0,0,32722,12287,65534,34815,65534,18431]),t.W)
 C.mg=H.b(s([0,0,65498,45055,65535,34815,65534,18431]),t.W)
 C.jD=H.b(s([0,0,24576,1023,65534,34815,65534,18431]),t.W)
