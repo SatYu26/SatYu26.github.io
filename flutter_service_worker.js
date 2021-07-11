@@ -30,8 +30,8 @@ const RESOURCES = {
 "assets/assets/services/ui.png": "3cf727247752b730a05f51fe0177036f",
 "assets/assets/srm.png": "757e078c76d306a1fec1648f4f786d7e",
 "assets/FontManifest.json": "53db916e40f5cd339f7e07ff4f1303a1",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "4129064bdfbb2af8fa854de3d77bb946",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "a884ecf7c16439e039acbaf0e6abb805",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "622bfd9a73cfd80f4419e4cd9be100f1",
 "icons/android-icon-144x144.png": "f3cb725a3518c4f8324272e8509caf46",
@@ -61,9 +61,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "47ca49e2215710743712a86a0381b4f1",
 "icons/ms-icon-310x310.png": "745a7fb4ec8152d633b8b2c745254993",
 "icons/ms-icon-70x70.png": "5423e4e0d1083c60b225039152bbfb8a",
-"index.html": "28b6ea0f6f545ab068dddb6b5ae276e2",
-"/": "28b6ea0f6f545ab068dddb6b5ae276e2",
-"main.dart.js": "3052c98e6191a4596b9cb0d51ec40bfa",
+"index.html": "66ace64852206388dae51a3a62a5ad99",
+"/": "66ace64852206388dae51a3a62a5ad99",
+"main.dart.js": "706d7dc34af5395d42f768ee5bf4af77",
 "manifest.json": "028e94a9edd225a01c06d476350ef9a8",
 "style.css": "ea14c82542cebe5c0a3d5d8e2c79f3d2",
 "style.css.map": "0613c67b854dd49e7ea53d4c88d8eaa6",
@@ -86,7 +86,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
