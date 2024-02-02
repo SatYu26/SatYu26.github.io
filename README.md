@@ -1,6 +1,6 @@
 # Portfolio
 
-Hi everyone, this is a simple Portfolio website with some fun twist in it.
+Hi everyone!!, this is a simple Portfolio website with some fun twist in it.
 
 <a href="https://satyu26.github.io">Visit this Portfolio</a>
 
